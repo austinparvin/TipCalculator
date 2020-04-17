@@ -24,4 +24,4 @@ A tip calculating console app.  This app includes:
 - great 25%
 
 ## App In Action
-![](https://i.imgur.com/6pKtM5R.png)
+![](g.recordit.co/QsumuWnRLd.gif)
