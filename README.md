@@ -1,25 +1,27 @@
-# Default Template for SDG .NET Course
+# Tip Calculator
 
-This is the default template for a simple .NET Core console app. This template has:
+A tip calculating console app.  This app includes has:
 
-- github integration
+- [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 
-## To push to github
+- input validation
+```C#
+  // check if the input was a number
+            double billTotal;
+            var isValid = Double.TryParse(total, out billTotal);
+            if (!isValid)
+            {
+                Console.WriteLine("\nThat is not a number, try again\n");
+                total = Console.ReadLine();
+                billTotal = Double.Parse(total);
+            }
+```
 
-To create and push your current code to github, use the task `create-github`.
+## Tipping Percentages Based On Service Quality
 
-How?
+- okay 18%
+- good 20%
+- great 25%
 
-1. Open your command pallette by using (Mac) `shift + cmd + p` or (Windows) `shift + ctrl + p`
-2. Search and Select `Tasks: Run Task`
-3. Select `create-github` from the dropdown
-
-This will create a new github repo, locally and up on github and also push your current code.
-
-## To turn in your assignment:
-
-after you have created a github repo, completed your project and pushed your code, follow these instructions: https://suncoast.io/handbook/tools/assignment-turn-in/
-
-## PROTIP:
-
-When you are complete with the project and have turned it in to your instructor, update this read me with details about the assignment.
+## App In Action
+![](http://g.recordit.co/QsumuWnRLd.gif)
