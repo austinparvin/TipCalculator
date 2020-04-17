@@ -1,6 +1,6 @@
 # Tip Calculator
 
-A tip calculating console app.  This app includes has:
+A tip calculating console app.  This app includes:
 
 - [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 
