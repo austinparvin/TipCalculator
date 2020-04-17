@@ -1,10 +1,11 @@
 # Tip Calculator
 
-A tip calculating console app.  This app includes:
+A tip calculating console app. This app includes:
 
 - [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 
 - input validation
+
 ```C#
   // check if the input was a number
             double billTotal;
@@ -24,4 +25,5 @@ A tip calculating console app.  This app includes:
 - great 25%
 
 ## App In Action
-![](g.recordit.co/QsumuWnRLd.gif)
+
+![recordit](g.recordit.co/QsumuWnRLd.gif)
