@@ -8,14 +8,14 @@ A tip calculating console app. This app includes:
 
 ```C#
   // check if the input was a number
-            double billTotal;
-            var isValid = Double.TryParse(total, out billTotal);
-            if (!isValid)
-            {
-                Console.WriteLine("\nThat is not a number, try again\n");
-                total = Console.ReadLine();
-                billTotal = Double.Parse(total);
-            }
+  double billTotal;
+  var isValid = Double.TryParse(total, out billTotal);
+  if (!isValid)
+  {
+      Console.WriteLine("\nThat is not a number, try again\n");
+      total = Console.ReadLine();
+      billTotal = Double.Parse(total);
+  }
 ```
 
 ## Tipping Percentages Based On Service Quality
